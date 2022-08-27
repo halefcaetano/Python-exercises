@@ -1,0 +1,13 @@
+n = int(input('Enter the number: '))
+last = 1
+count = 3
+first = 0
+print('{} - {}' .format(first, last), end='')
+print(' - ' if count < n else '', end='')
+while count <= n:
+    f = first + last
+    print('{}' .format(f), end='')
+    print(' - ' if count < n else '', end='')
+    first = last
+    last = f
+    count += 1

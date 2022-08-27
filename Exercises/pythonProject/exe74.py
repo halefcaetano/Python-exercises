@@ -1,0 +1,10 @@
+from random import randint
+n1 = randint(0, 20)
+n2 = randint(0, 20)
+n3 = randint(0, 20)
+n4 = randint(0, 20)
+n5 = randint(0, 20)
+t = (n1, n2, n3, n4, n5)
+print(t)
+print(f'The biggest number is {max(t)}.')
+print(f'The smallest number is {min(t)}.')
